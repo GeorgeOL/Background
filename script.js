@@ -8,7 +8,6 @@ let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
 let body =document.getElementById("gradient");
 
-
 //background color
 
 function colorPicker(){
@@ -16,24 +15,8 @@ function colorPicker(){
     // css.textContent = body.style.background + ";";
 }
 color1.addEventListener("input", colorPicker );
-// {
-//  body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
-//
-// })
-
 color2.addEventListener("input", colorPicker);
-// {
-//     // body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
-//
-// })
-// function removeParent(evt){
-//     evt.target.removeEventListener("click", removeParent, false);
-//     evt.target.parentNode.remove();
-// }
-// ul.onclick = function (event){
-//     let target = getEventTarget(event);
-//     target.classList.toggle("done");
-// }
+
 
 function inputLength() {
     return input.value.length;
