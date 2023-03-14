@@ -22,7 +22,7 @@
     text-decoration: line-through;
 }
 body {
-    font: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
