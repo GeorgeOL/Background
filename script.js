@@ -59,7 +59,6 @@ function addEventAfterKey(event){
     }
 }
 
-
 button.addEventListener("click", addEventAfterClick);
 
 input.addEventListener("keypress", addEventAfterKey);
