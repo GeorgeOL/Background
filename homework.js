@@ -148,7 +148,16 @@ function biggestNumberInArray(arr) {
 console.log(biggestNumberInArray(array));
 
 function biggestNumberInArray2(arr) {
-
+    let highest = 0;
+    arr.forEach(it => {
+            if (highest < it){
+                highest = it;
+            }
+        }
+    )
+    return highest;
+}
+console.log(biggestNumberInArray2(array2));
 }
 
 function biggestNumberInArray3(arr) {
