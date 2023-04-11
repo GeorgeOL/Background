@@ -158,7 +158,6 @@ function biggestNumberInArray2(arr) {
     return highest;
 }
 console.log(biggestNumberInArray2(array2));
-}
 
 function biggestNumberInArray3(arr) {
     let highest = 0;
@@ -185,5 +184,6 @@ if (item in basket ){
         return `${lookingFor} is in basket`
     }
 }
+    let totalItems = Object.values(amazonBasket).reduce((a, b) => a + b, 0);
 return  `is notin your basket`
 }
