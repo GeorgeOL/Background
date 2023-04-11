@@ -169,7 +169,7 @@ function biggestNumberInArray3(arr) {
     }
     return highest;
 }
-
+console.log(biggestNumberInArray3(array3));
 
 // Question #2:
 // Write a function checkBasket() that lets you know if the item is in the basket or not
@@ -180,5 +180,10 @@ amazonBasket = {
 }
 
 function checkBasket(basket, lookingFor) {
-
+if (item in basket ){
+    if (item === lookingFor){
+        return `${lookingFor} is in basket`
+    }
+}
+return  `is notin your basket`
 }
