@@ -161,7 +161,13 @@ console.log(biggestNumberInArray2(array2));
 }
 
 function biggestNumberInArray3(arr) {
-
+    let highest = 0;
+    for (item of arr) {
+        if (highest < item) {
+            highest = item;
+        }
+    }
+    return highest;
 }
 
 
