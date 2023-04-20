@@ -20,5 +20,16 @@ let george_pokemon = {
     }
 }
 
-let weight = will_pokemon.pikachu.weight
-console.log(weight)
+// let weight = will_pokemon.pikachu.weight
+// console.log(weight)
+if (george_pokemon.pikachu && george_pokemon.pikachu.weight){
+    let weight2 = george_pokemon.pikachu.weight
+} else {
+    let weight2 = undefined
+} // in loc de asta putem folosi ==>>
+//==>>
+let weight3 = george_pokemon?.pikachu?.weight
+console.log(weight3);
+
+// let weight2 = george_pokemon.pikachu.weight
+// console.log(weight2)
